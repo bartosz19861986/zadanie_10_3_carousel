@@ -1,0 +1,14 @@
+
+ul > li {
+	display: inline-block;
+}
+
+img {
+	width: 300px;
+}
+
+#carousel {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 0px 0px 0px;
+}
