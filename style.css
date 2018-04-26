@@ -1,14 +1,18 @@
 
 ul > li {
-	display: inline-block;
+	list-style: none;
+	float: left;
 }
 
 img {
-	width: 300px;
+	width: 400px;
+	height: 300px;
 }
 
 #carousel {
 	margin: 0 auto;
+	padding: 100px 0px 0px 0px;
+	width: 400px;
+	height: 300px;
 	overflow: hidden;
-	padding: 20px 0px 0px 0px;
 }
