@@ -1,18 +1,26 @@
-
-ul > li {
-	list-style: none;
-	float: left;
-}
-
-img {
-	width: 400px;
-	height: 300px;
+body {
+  box-sizing: border-box;
+  /* margin: 0; */
 }
 
 #carousel {
-	margin: 0 auto;
-	padding: 100px 0px 0px 0px;
-	width: 400px;
-	height: 300px;
-	overflow: hidden;
+  margin: auto;
+  width: 400px;
+  height: 700px;
+  overflow: hidden;
+}
+
+ul {
+  width: 2000px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: solid; */
+}
+
+li {
+  height: 700px;
+  width: 400px;
+  float: right;
+  list-style: none;
 }
